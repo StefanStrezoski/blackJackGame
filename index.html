@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="dealer">
+      <p>Dealer cards: <strong class="dealerCardSymbols"></strong></p>
+      <img src="cards/BACK.png" class="dealer-card0 hidden" />
+      <img src="cards/3-C.png" class="dealer-card1 hidden" />
+      <p>Dealer total: <span class="dealer--total">0</span></p>
+    </div>
+    <div class="player">
+      <img src="cards/2-C.png" class="player-card hidden" />
+      <img src="cards/7-H.png" class="player-card hidden" />
+      <p>Player cards: <strong class="playerCardSymbols"></strong></p>
+      <p>Player total: <span class="player--total">0</span></p>
+      <button class="btn--hit">HIT</button>
+      <button class="btn--hold">HOLD</button>
+      <button class="btn--new">NEW GAME</button>
+      <button class="btn--new--deck">NEW DECK</button>
+    </div>
+    <div class="results">
+      <p class="resultOfGame">...</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
