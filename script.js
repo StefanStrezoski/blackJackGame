@@ -1,7 +1,5 @@
 'use strict';
-// TODO: FLOWCHART!
-// Nije guma se sto sija
-// Блек Џек за сиромаси
+
 const dealerScore = document.querySelector('.dealer--total');
 const playerScore = document.querySelector('.player--total');
 const btnHit = document.querySelector('.btn--hit');
