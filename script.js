@@ -386,7 +386,7 @@ btnHit.addEventListener('click', function () {
       gameResults.textContent = 'You lost';
     } else if (playerTotal === 21) {
       gameResults.textContent =
-        'You win. Congrats! Браво, ај сеа гитла доста се коцкаш!';
+        'You win. Congrats!';
       playing = false;
     }
     if (deck.length === 0) {
